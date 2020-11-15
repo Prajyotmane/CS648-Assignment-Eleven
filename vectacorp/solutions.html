@@ -29,17 +29,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <title>Vectacorps - Solutions</title>
-    <script>
-      $(document).ready(function () {
-        $("#scrollContainer").scrollspy({ target: "#navbar-example3" });
-      });
-    </script>
+    <title>Vectacorps :: Solutions</title>
   </head>
   <body>
     <div class="bd-example">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <img src="images/logo.png" />
+        <!-- No image for logo in assignment zip-->
+        <h4 style="color: white">Vecta corp.</h4>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
@@ -112,8 +108,8 @@
           <div class="carousel-item active">
             <img src="images/header1.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>We Crunch Stats</h5>
-              <p>We crunch numbers to get you valuable insights.</p>
+              <h5>We believe in statistics</h5>
+              <p>We dive deep into the data to give you best insights.</p>
               <p>
                 <a class="btn-primary btn-lg" href="#" role="button"
                   >More Info</a
@@ -124,8 +120,8 @@
           <div class="carousel-item">
             <img src="images/header2.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>We Seal Deals</h5>
-              <p>We close out with firm handshakes.</p>
+              <h5>We believe in client satisfaction</h5>
+              <p>We give importance to our client's satisfaction.</p>
               <p>
                 <a class="btn-primary btn-lg" href="#" role="button"
                   >More Info</a
@@ -136,8 +132,8 @@
           <div class="carousel-item">
             <img src="images/header3.jpg" class="d-block w-100" alt="" />
             <div class="carousel-caption d-none d-md-block">
-              <h5>We Collaborate</h5>
-              <p>We collaborate as a team.</p>
+              <h5>We believe in Collaboration</h5>
+              <p>We work as a team.</p>
               <p>
                 <a class="btn-primary btn-lg" href="#" role="button"
                   >More Info</a
@@ -325,11 +321,14 @@
 
         <hr />
       </div>
-      <!-- /container -->
     </main>
-
     <footer class="container">
       <p class="text-center">Copyright &copy; 2020, All rights reserved.</p>
     </footer>
+    <script>
+      $(document).ready(function () {
+        $("#scrollContainer").scrollspy({ target: "#navbar-example3" });
+      });
+    </script>
   </body>
 </html>
